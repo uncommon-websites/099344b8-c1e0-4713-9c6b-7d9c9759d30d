@@ -4,30 +4,30 @@
   const steps = [
     {
       id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      title: "Source Premium Ingredients",
+      text: "Quality starts at the source. We partner with trusted global suppliers and local farms to secure the freshest produce, proteins, and specialty items. Our procurement team ensures every ingredient meets strict quality standards before entering our supply chain.",
+      tags: ["Global Supplier Network", "Local Farm Partnerships", "Quality Certification", "Seasonal Sourcing", "Price Optimization", "Supplier Audits"],
       graphic: "lines"
     },
     {
       id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      title: "Process & Package with Care",
+      text: "From raw ingredients to ready-to-use products, our processing facilities maintain the highest food safety standards. We handle everything from cleaning and cutting to custom packaging, ensuring products arrive kitchen-ready.",
+      tags: ["Food Safety Standards", "Custom Processing", "Portion Control", "Hygiene Protocols", "Packaging Solutions", "Waste Reduction"],
       graphic: "curve"
     },
     {
       id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      title: "Deliver Fresh Daily",
+      text: "Our cold chain logistics network ensures products maintain optimal freshness from warehouse to kitchen. With same-day delivery guarantees and temperature-controlled vehicles, we eliminate the freshness concerns that plague the HORECA industry.",
+      tags: ["Cold Chain Management", "Same-Day Delivery", "Route Optimization", "Temperature Monitoring", "Real-Time Tracking", "Flexible Scheduling"],
       graphic: "circle-top"
     },
     {
       id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      title: "Support & Scale Together",
+      text: "We're more than a supplier—we're your partner in success. Our team provides menu planning support, inventory management, and market insights to help your business thrive. As you grow, we scale with you.",
+      tags: ["Menu Consultation", "Inventory Management", "Market Intelligence", "Chef Networking Events", "Training Programs", "Growth Support"],
       graphic: "circle-waves"
     }
   ];
@@ -63,7 +63,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section class="bg-[#0a0a0a] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->
@@ -71,7 +71,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">Our integrated approach:</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}

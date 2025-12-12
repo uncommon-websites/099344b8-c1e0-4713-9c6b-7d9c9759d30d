@@ -1,19 +1,19 @@
 <script lang="ts">
   const cards = [
     {
-      title: "We're Not Just a Vendor...",
-      subtitle: "We're Your Partner In Crime.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+      title: "We're Not Just a Supplier...",
+      subtitle: "We're Your Kitchen Partner.",
+      image: "/generated/image-chef-and-food-supplier-shaking-hands-in--1765530580284-7.webp"
     },
     {
-      title: "We Don't Just Follow Trends...",
-      subtitle: "We Shape New Territories.",
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+      title: "We Don't Just Deliver Food...",
+      subtitle: "We Deliver Consistency.",
+      image: "/generated/image-organized-rows-of-fresh-vegetables-and-p-1765530583076-8.webp"
     },
     {
-      title: "We Don't Play By The Book...",
-      subtitle: "We Write It Together.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+      title: "We Don't Just Meet Standards...",
+      subtitle: "We Set Them.",
+      image: "/generated/image-food-safety-certification-inspection-pro-1765530585578-9.webp"
     }
   ];
 </script>
@@ -21,7 +21,7 @@
 <section class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-2xl mb-16">
     <p class="text-xl md:text-2xl leading-relaxed text-gray-800">
-      Collaboration isn't just a buzzword—it's how we roll. We're not here to hand off some cookie-cutter deliverable and disappear; we're in it with you, from day one.
+      Reliability isn't just a promise—it's our foundation. We're not here to be another unreliable supplier; we're building long-term partnerships with every chef and operator we serve.
     </p>
   </div>
 

@@ -1,53 +1,53 @@
 <script lang="ts">
   const projects = [
     {
-      client: "Red Bull",
-      desc: "A global platform built to Scale, Evolve, and Perform.",
-      bg: "bg-[#000c2d]",
-      img: "", // Placeholder logic handled in template
+      client: "Fresh Produce Distribution",
+      desc: "Daily delivery of premium fruits and vegetables to Bahrain's top hotels and restaurants.",
+      bg: "bg-[#1a1a1a]",
+      img: "/generated/image-modern-temperature-controlled-warehouse--1765530561506-0.webp",
       dark: true
     },
     {
-      client: "Volvo",
-      desc: "Redefining how people experience insurance.",
+      client: "Protein & Seafood Supply",
+      desc: "Premium meat, poultry, and fresh seafood sourced from trusted global suppliers.",
       bg: "bg-gray-200",
-      img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=800",
+      img: "/generated/image-premium-fresh-seafood-and-meat-displayed-1765530564465-1.webp",
       dark: false
     },
     {
-      client: "The Organics",
-      desc: "Translating a refreshing identity into a bold platform.",
-      bg: "bg-[#8da356]",
-      img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800",
+      client: "Dairy & Bakery Products",
+      desc: "Fresh dairy products and artisan bakery items delivered daily.",
+      bg: "bg-[#f5f5f5]",
+      img: "/generated/image-fresh-dairy-products-and-artisan-bread-d-1765530567607-2.webp",
       dark: false
     },
     {
-      client: "Isar Aerospace",
-      desc: "Launching a brand journey into orbit.",
+      client: "Cold Chain Logistics",
+      desc: "Temperature-controlled distribution ensuring freshness from source to kitchen.",
       bg: "bg-black",
-      img: "",
+      img: "/generated/image-refrigerated-delivery-truck-with-tempera-1765530569926-3.webp",
       dark: true
     },
     {
-      client: "REWE",
-      desc: "Digital Convenience in your Pocket.",
-      bg: "bg-[#f0f0f0]",
-      img: "https://images.unsplash.com/photo-1512428559087-560fa5ce7d87?auto=format&fit=crop&q=80&w=800",
+      client: "HORECA Solutions",
+      desc: "Comprehensive food service solutions tailored for hotels, restaurants, and catering.",
+      bg: "bg-[#f8f8f8]",
+      img: "/generated/image-busy-professional-restaurant-kitchen-wit-1765530572910-4.webp",
       dark: false,
-      full: true // Making REWE full width to align last two items
+      full: true // Making HORECA full width to align last two items
     },
     {
-      client: "Alpha Tauri",
-      desc: "Designing the interface of wearable intelligence.",
-      bg: "bg-[#e0e0e0]",
-      img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=800",
+      client: "Quality Assurance",
+      desc: "Rigorous testing and certification ensuring food safety standards.",
+      bg: "bg-[#e8e8e8]",
+      img: "/generated/image-food-quality-inspector-examining-fresh-p-1765530575810-5.webp",
       dark: false
     },
     {
-      client: "Zalando",
-      desc: "Designing the Zalando E-Commerce Operating System.",
-      bg: "bg-[#d8c5f0]",
-      img: "https://images.unsplash.com/photo-1555421689-49263376da7a?auto=format&fit=crop&q=80&w=800",
+      client: "Supply Chain Technology",
+      desc: "Real-time tracking and inventory management for seamless operations.",
+      bg: "bg-[#f0f0f0]",
+      img: "/generated/image-warehouse-worker-using-tablet-for-invent-1765530578022-6.webp",
       dark: false
     }
   ];
@@ -56,7 +56,7 @@
 <section class="px-6 md:px-12 py-24 bg-white">
   <div class="max-w-3xl mb-16">
     <h2 class="text-2xl md:text-3xl font-medium leading-tight">
-      <span class="font-bold">We orchestrate strategy, design, and technology</span> to create digital experiences that connect with millions and give you the edge that sets you apart.
+      <span class="font-bold">We integrate sourcing, production, and distribution</span> to deliver consistent quality and freshness across the Middle East food supply chain—capturing the $850B market opportunity.
     </h2>
   </div>
 
